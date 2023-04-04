@@ -4,5 +4,9 @@ D
 E
 F
 G
+<<<<<<< HEAD
 Hello World
 New Line
+=======
+Hello World! What are you up to ?
+>>>>>>> 71cd592bee3de3462f2830b189892d29e1207c3d
