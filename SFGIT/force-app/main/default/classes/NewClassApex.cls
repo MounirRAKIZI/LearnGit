@@ -5,6 +5,7 @@ public with sharing class NewClassApex {
 
 
     public static List<Account> getAllAccounts(){
+        /** NEW COMMENTS **/
         return [SELECT Id FROM Account];
     }
 
