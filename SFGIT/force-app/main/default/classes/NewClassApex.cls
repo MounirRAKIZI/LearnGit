@@ -15,4 +15,8 @@ public with sharing class NewClassApex {
     public static List<Case> getAllCases(){
         return [SELECT Id FROM Case];
     }
+
+    public static List<Lead> getAllLeads(){
+        return [SELECT Id FROM Lead];
+    }
 }
