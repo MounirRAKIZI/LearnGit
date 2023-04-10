@@ -9,6 +9,7 @@ public with sharing class NewClassApex {
     }
 
     public static List<Contact> getAllContacts(){
+        /** Add New Comments **/
         return [SELECT Id FROM Contact];
     }
 }
