@@ -11,7 +11,7 @@ public with sharing class NewClassApex {
     }
 
     public static List<Case> getAllCases(){
-        return [SELECT Id FROM Case];
+        return [SELECT Id FROM Case WHERE Subject != 'Risk'];
     }
 
     public static List<Lead> getAllLeads(){
